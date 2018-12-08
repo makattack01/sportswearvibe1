@@ -1,0 +1,399 @@
+/* header-navigation menu */
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: georgia;
+}
+/* header */
+header {
+  background: black;
+}
+
+header li {
+  color: white;
+}
+
+.title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.navbar #active {
+	background-color: #666666;
+}
+
+.navi-top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navi-top li {
+	display: inline;
+}
+
+.navi-top li a {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+
+li {
+	float: left;
+}
+/* nav */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Georgia;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #cccccc;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+ }
+/* h1 intro */
+ h1.intro {
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+ /* h2 intro */
+ h2.Customer{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+ h2.email{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;}
+
+     h2.phone{
+         color: black;
+         font-family: Arial, Helvetica, sans-serif;}
+
+         h2.time{
+             color: RED;
+             font-family: Arial, Helvetica, sans-serif;}
+             * {
+               margin: 0;
+               padding: 0;
+               font-family: 'Lato', sans-serif;
+             }
+/* opening openinghourscontent */
+ .openinghours {
+     font-family:Lucida Console;
+     border-radius:4px;
+     margin:10px;
+     box-shadow: 0 0 10px black;
+     padding:0 10px 0 10px;
+     overflow: hidden;
+     display: inline-block;
+ }
+ .openinghourscontent {
+     float:left;
+ }
+ .openinghourscontent h2 {
+     display:block;
+     text-align:center;
+     margin-top:.33em;
+ }
+ .openinghourscontent button {
+     color:white;
+     font-family:Courier New;
+     font-size:large;
+     font-weight:bolder;
+     background-color:#4679BD;
+     border-radius:4px;
+     width:100%;
+     margin-bottom:10px;
+ }
+ .today {
+     color: #8AC007;
+ }
+ .opening-hours-table tr td:first-child {
+     font-weight:bold;
+ }
+ #open-status {
+     display:block;
+     margin-top:-1em;
+     text-align:center;
+     border:dotted lightgrey 3px;
+ }
+ .openorclosed:after {
+     content:" open during these hours:";
+ }
+ .open {
+     color:green;
+ }
+ .open:after {
+     content:" Open";
+     color: #6C0;
+ }
+ .closed:after {
+     content:" Closed";
+     color: red;
+ }
+ .opening-hours-table tr td {
+     padding:5px;
+ }
+
+ input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+
+ input[type=submit] {
+     background-color: black;
+     color: red;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+/* submit button */
+ input[type=submit]:hover {
+     background-color: ##040904;
+ }
+
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+ }
+
+
+/* image gallery */
+div.gallery {
+    margin: 9px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 230px;
+    position: relative;
+    background: white;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+/* description */
+div.description {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+		color:#666666;
+}
+/* div price */
+div.price {
+    text-align: center;
+    color: red;
+	  color:#666666;
+}
+
+/* back to top */
+div.label {
+    margin: 5px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 180px;
+}
+
+div.label img {
+    width: 40%;
+    height: auto;
+}
+
+/* image gallery */
+div.gallery {
+    margin: 9px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 230px;
+    position: relative;
+    background: white;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.description {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color:#666666;
+}
+
+div.price {
+    text-align: center;
+    color: red;
+    color:#666666;
+}
+
+/* back to top */
+div.label {
+    margin: 5px;
+    margin-left: auto;
+  margin-right: auto;
+    width: 180px;
+}
+
+div.label img {
+    width: 40%;
+    height: auto;
+}
+
+
+/* footer */
+
+footer {
+  background-color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.foot li{
+  display: inline-block;
+  margin: 20px;
+}
+
+.foot li a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+	background-color: black;
+	font-size: 14px;
+	text-align: center;
+}
+
+.foot li{
+	display: inline-block;
+	margin: 20px;
+}
+
+.foot li a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
